@@ -1,0 +1,38 @@
+{
+    "name": "dcd-dev",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "cmake.generator": "Ninja",
+                "clangd.path": "/usr/bin/clangd",
+                "cmake.languageSupport.dotnetPath": "/usr/bin/dotnet"
+            },
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "vadimcn.vscode-lldb",
+                "xaver.clang-format",
+                "magnobiet.docker-extension-pack",
+                "ms-vscode.cmake-tools",
+                "twxs.cmake",
+                "josetr.cmake-language-support-vscode",
+                "cheshirekow.cmake-format",
+                "donjayamanne.python-extension-pack",
+                "ms-python.debugpy",
+                "Gruntfuggly.todo-tree",
+                "alefragnani.Bookmarks",
+                "eamodio.gitlens",
+                "caponetto.vscode-diff-viewer",
+                "uctakeoff.vscode-counter",
+                "MatthewNespor.vscode-color-identifiers-mode",
+                "oderwat.indent-rainbow",
+                "piotrpalarz.vscode-gitignore-generator",
+                "rohitraj-rraj.squashmaster"
+            ]
+        }
+    }
+}

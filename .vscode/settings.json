@@ -1,0 +1,7 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.sourceDirectory": "${workspaceFolder}/dcd",
+    "cmake.automaticReconfigure": true,
+    "cmake.useCMakePresets": "always",
+    "clangd.arguments": ["--compile-commands-dir=${workspaceFolder}/build"]
+}
